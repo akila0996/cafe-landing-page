@@ -1,0 +1,228 @@
+body{
+    background-color: #344451;
+    height: 100vh;
+}
+                     /*--------HEADER CSS-----*/
+header{
+    text-align: center;
+    margin: 30px;
+}
+i.fas.fa-mug-hot {
+    font-size: 40px;
+    color: white;
+}
+span#head {
+    font-size: 33px;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Lato", sans-serif;
+    margin: 15px;
+    font-weight: 500;
+}
+                      /*--------BANNER CSS-----*/
+container.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap:wrap;
+    
+}
+#banner1{
+    background-image: url("chilling-cafe-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+    width: 640px;
+    background-color: white;
+}
+                       /*--------TABLE CSS-----*/
+table {
+    width: 600px;
+    border-collapse: collapse;
+    color: gray;
+}
+th,td{
+    padding: 10px;
+}
+thead {
+    background-color: #6c97acb0;
+}
+tr:nth-child(odd) {
+    background-color: #ebe4e41f;
+}
+tr:nth-child(even){
+background-color:#48799147;
+}
+section.table {
+    text-align:center;
+    text-transform: capitalize;
+    font-family: "Lato", sans-serif;
+    width: 640px;
+    height: 53vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    color: #996633;
+    font-weight: 400;
+    padding: 20px;
+}
+  
+                       /*--------ITEMS CSS-----*/
+section.item-image {
+    width: 640px;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Lato", sans-serif;
+}
+.special {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height: 36vh;
+}
+#img1{
+    background-image: url("chilling-cafe-11.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 180px;    
+}     
+#img2{
+    background-image: url("chilling-cafe-12.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 180px;  
+}     
+#img3{
+    background-image: url("chilling-cafe-13.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 180px;   
+}                       
+.special p{
+    position: relative;
+    top: 13rem;
+    line-height: 1.6;
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+}
+hr#hr-line {
+    width: 60%;
+    margin-left: 8rem;
+    border-top: 1.9px solid rgb(181 187 189);
+}
+
+                                /*--------ABOUT CSS-----*/
+section.about-container {
+    width: 640px;
+    background-color: white;
+    height: 37vh;
+}   
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    color: gray;
+    font-weight: 500;
+}  
+.text {
+    margin-bottom: 40px;
+}                    
+                                /*--------TALK US CSS-----*/
+ section.talk-content {
+    width: 640px;
+    height: 25vh;
+    background-color: white;
+    text-transform: capitalize;
+    font-family: "Lato", sans-serif;
+    color: gray;
+    font-weight: 500;
+ }
+ .talk {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.social-icons img {
+    width: 35px;
+}
+                                 /*--------FOOTER CSS-----*/
+
+ footer{
+    font-family: "Lato", sans-serif;
+    color: white;
+    margin: 2rem;
+ }                               /*--------MEDIA QUERY CSS-----*/
+
+ @media (min-width:375px) and (max-width:768px) {
+   
+    #banner1{
+    background-size: contain;
+    height: 38vh;
+    }
+    section.table {
+        height: 65vh;      
+    }
+    table#menu {
+        width: 58%;
+        margin-right: 17rem;
+    }
+    table#menu2{
+        width: 57%;
+        margin-right: 20rem;
+    }
+    h2 {
+        margin-right: 17rem;
+    }
+    .special {
+        display: block;
+        height: 205vh;
+    }  
+    hr#hr-line{
+        width: 35%;
+        margin-left: 5rem;
+    } 
+    #img1,#img2,#img3{
+        width: 356px;
+        height: 360px;
+        margin-bottom: 6rem;
+    }
+    section.item-image{
+        height: 220vh;   
+    }
+    .special p {
+        top: 23rem;       
+    }
+    section.about-container {
+        height: 37vh;
+    }
+    section.talk-content{
+        height: 30vh;
+    }
+    .text{
+        margin-right: 16rem;
+    font-size: 12px;
+    }
+    .para {
+        width: 50%;
+        margin-right: 15rem;
+    }
+    .social-icons{
+        margin-right: 18rem;
+    }
+    footer{
+        margin-right: 14rem;
+    width: 100%;
+    margin-top: 1rem;
+    }
+ }
