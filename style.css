@@ -47,6 +47,9 @@ th,td{
 thead {
     background-color: #6c97acb0;
 }
+td:nth-child(1){
+   text-align: left;
+}
 tr:nth-child(odd) {
     background-color: #ebe4e41f;
 }
@@ -167,6 +170,7 @@ section.about-container {
  @media (min-width:375px) and (max-width:768px) {
     container.main-wrapper {
         overflow: hidden;
+        width: 375px;
     }
     #banner1{
     background-size: contain;
@@ -226,5 +230,6 @@ section.about-container {
         margin-right: 14rem;
     width: 100%;
     margin-top: 1rem;
+    font-size: 14px;
     }
  }
