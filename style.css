@@ -165,7 +165,9 @@ section.about-container {
  }                               /*--------MEDIA QUERY CSS-----*/
 
  @media (min-width:375px) and (max-width:768px) {
-   
+    container.main-wrapper {
+        overflow: hidden;
+    }
     #banner1{
     background-size: contain;
     height: 38vh;
